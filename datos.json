@@ -1,0 +1,21 @@
+{
+    "materias":[
+        {
+            "name":"Materia1",
+            "image":"",
+            "description":"Descripcion de la asignatura",
+            "docentes":["Docente1", "Docente2","Docente3"],
+            "dia_semana":["dia1","dia2","dia3"],
+            "horario":["horario1","horario2","horario3"]
+        }
+    ],
+    "docentes":[
+        {
+            "name":"NombreDocente",
+            "description":"Descripcion con la formacion del docente",
+            "materia":[
+                "materia1","materia2","materia3"
+            ]
+        }
+    ]
+}
