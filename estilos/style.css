@@ -37,13 +37,14 @@ ul{
     width: 150px;
 }
 
-#search-signUp{
+#search-login{
     width: 100%;
     margin:auto;
     display: block;
 }
 .rounded-pill{
     margin: 10px;
+    border: none;
 }
 
 
