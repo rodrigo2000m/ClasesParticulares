@@ -3,8 +3,14 @@ header, footer, nav{
     color:white;
     border-bottom:black solid 1px;
 }
+
 .nav-item:hover{
     background-color: #ff4400;
+}
+.col-5{
+    width: 100%;
+    margin: auto;
+    vertical-align: middle;
 }
 
 #logo_orange{
@@ -23,14 +29,17 @@ ul{
     width: 16.6%;
     text-align: center;
 }
+
 .btn{
     background-color: #ff4400;
     color: white;
     width: 150px;
 }
+
 #search-signUp{
-    display:inline-table;
-    align-items:flex-end;
+    width: 100%;
+    margin:auto;
+    display: block;
 }
 .rounded-pill{
     margin: 10px;
