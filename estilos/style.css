@@ -2,11 +2,33 @@ header, footer, nav{
     background-color: black;
     color:white;
     border-bottom:black solid 1px;
+    padding: 0px;
+}
+/*Estilo del footer*/
+footer{
+    height: 150px;
+}
+footer i{
+    margin: 10px;
+    color: white;
+}
+footer p{
+    text-align: center;
+}
+footer i:hover{
+    color:#ff4400;
 }
 
+/*Le saco todos los estilos a las etiquetas*/
+a:hover{
+    text-decoration: none;
+}
 
 .nav-item:hover{
     background-color: #ff4400;
+}
+.nav-item:active{
+    background-color: black;
 }
 .col-5{
     width: 100%;
@@ -18,29 +40,49 @@ header, footer, nav{
     width: 80%;
     display: flexbox;
 }
+#logo_white{
+    height: 100px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
 body{
     background-image: url(../img/fondo-white.jpg);
-    background-position: inherit;
-    background-repeat: none ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
-.container{
-    padding: 0%;
-}
+
 ul{
+    width: 100%;
+}
+li{
     width: 16.6%;
     text-align: center;
 }
-
+/*Boton naranja*/
 .btn{
     background-color: #ff4400;
     color: white;
     width: 150px;
+    font-weight: bold ;
+    width: 100%;
+}
+.btn:hover{
+    color:black;
+    align-self: center;
+    margin-right: 0%;
+}
+.btn:active{
+    color: #ff4400;
+    background-color: black;
 }
 
 #search-login{
     width: 100%;
     margin:auto;
-    display: block;
+    display:block;
 }
 .rounded-pill{
     margin: 10px;

@@ -1,0 +1,32 @@
+{
+    "docentes":[
+        {
+            "id-teacher":"001",
+            "name":"Pablo",
+            "surname":"Gonzalez",
+            "photo":"imagen",
+            "id-subjet":[
+                "001",
+                "002",
+                "003"
+            ],
+            "description":"",
+            "cv":"link",
+            "calificacion":[
+                {
+                    "id-student":"001",
+                    "estrellas":"5",
+                    "comentarios":"Excelente docente, curse química y la logre salvar por él"
+                },
+                {
+                    "id-student":"002",
+                    "estrellas":"4",
+                    "comentarios":"Muchas gracias, hace años que no podia salvar matematicas"
+                }
+
+            ]
+            
+        }
+       
+    ]
+}
