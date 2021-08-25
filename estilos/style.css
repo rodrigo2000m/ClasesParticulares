@@ -86,9 +86,13 @@ li{
 }
 .rounded-pill{
     margin: 10px;
-    border: none;
 }
-
+nav .rounded-pill{
+    margin: 0px;
+}
+.rounded{
+    margin: 5px;
+}
 
 
 
