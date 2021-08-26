@@ -1,8 +1,8 @@
-let teacherArray=[]
+
 function showTeacher(array){
     let htmlContentToAppend = "";
     for(let i=0; i<array.docentes.length;i++){
-        let teacher=array.docentes[i];
+        let teacher=array[i];
         htmlContentToAppend +=`
         <div class="rounded" style="background-color: #ff4400; padding: 2px 20px 2px 20px; color: white;">
             <h3>`+teacher.name+teacher.surname +`</h3>
@@ -27,13 +27,11 @@ function showTeacher(array){
 
 
 
-
+const LINK="https://rodrigo2000m.github.io/ClasesParticulares/json/docentes.json"
 document.addEventListener("DOMContentLoaded", function (e) {
-    getJSONData(`https://rodrigo2000m.github.io/ClasesParticulares/json/docentes.json`).then(function(resultObj){
+    getJSONData(LINK).then(function(resultObj){
         if (resultObj.status === "ok"){
-            teacherArray = resultObj.data;
-
-            showTeacher(teacherArray);
+            showTeacher(resultObj.data);
         };
     
     })
