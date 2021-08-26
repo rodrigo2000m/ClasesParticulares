@@ -1,5 +1,4 @@
-{
-    "materias":[
+[
         {
             "id-subjet":"001",
             "name":"Química",
@@ -36,5 +35,4 @@
             "imagen":"link de la imagen",
             "description":"Texto que describe la asignatura"
         }
-    ]
-}
+]
