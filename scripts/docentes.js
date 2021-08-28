@@ -1,11 +1,11 @@
 
 function showTeacher(array){
     let htmlContentToAppend = "";
-    for(let i=0; i<array.docentes.length;i++){
+    for(let i=0; i<array.length;i++){
         let teacher=array[i];
         htmlContentToAppend +=`
         <div class="rounded" style="background-color: #ff4400; padding: 2px 20px 2px 20px; color: white;">
-            <h3>`+teacher.name+teacher.surname +`</h3>
+            <h3>`+teacher.name+" " +teacher.surname +`</h3>
         </div>
         <div class="row" style="display: flex; margin: auto;">
             <div class="col-3 rounded" style="border:black solid 1px; margin: 5px;">
@@ -13,7 +13,7 @@ function showTeacher(array){
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequuntur iure ad cupiditate amet accusamus libero nam laudantium odio, repellat vel ipsum ex quae quod sapiente omnis rerum facilis accusantium.</p>
             </div>
             <div class="col rounded" style="margin: 5px; background-color: rgba(255, 255, 255, 0.50);">
-                <p style="text-align:justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi voluptate quae perspiciatis deserunt neque adipisci facere suscipit porro, laboriosam a ipsam consequuntur temporibus quisquam repudiandae nisi nemo dolor ea. Laboriosam.</p>
+                <p style="text-align:justify;">`+teacher.description+`</p>
 
             </div>
 

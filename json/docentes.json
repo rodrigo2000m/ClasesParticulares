@@ -4,12 +4,13 @@
             "name":"Pablo",
             "surname":"Gonzalez",
             "photo":"imagen",
-            "id-subjet":[
-                "001",
-                "002",
-                "003"
+            "subjet":[
+                "Química",
+                "Física",
+                "Matemáticas",
+                "Inglés"
             ],
-            "description":"",
+            "description":"Soy docente desde hace 20 años, desde que inicie mi carrera sabía que quería enseñar, por lo cual siempre intente formarme no solo para aprender sino también para educar.",
             "cv":"link",
             "calificacion":[
                 {
