@@ -1,6 +1,23 @@
 [
         {
-            "id-teacher":"001",
+            "name":"Pablo",
+            "surname":"Gonzalez",
+            "photo":"url(../img/teacher01)",
+            "subjet":[
+                "Química",
+                "Física",
+                "Matemáticas",
+                "Inglés"
+            ],
+            "description":"Soy docente desde hace 20 años, desde que inicie mi carrera sabía que quería enseñar, por lo cual siempre intente formarme no solo para aprender sino también para educar.",
+            "cv":"link",
+            "estrellas":"5",
+            "comentarios":[
+                "Excelente docente, curse química y la logre salvar por él",
+                "Muchas gracias, hace años que no podia salvar matematicas"
+            ]
+        },
+        {
             "name":"Pablo",
             "surname":"Gonzalez",
             "photo":"imagen",
@@ -12,46 +29,29 @@
             ],
             "description":"Soy docente desde hace 20 años, desde que inicie mi carrera sabía que quería enseñar, por lo cual siempre intente formarme no solo para aprender sino también para educar.",
             "cv":"link",
-            "calificacion":[
-                {
-                    "id-student":"001",
-                    "estrellas":"5",
-                    "comentarios":"Excelente docente, curse química y la logre salvar por él"
-                },
-                {
-                    "id-student":"002",
-                    "estrellas":"4",
-                    "comentarios":"Muchas gracias, hace años que no podia salvar matematicas"
-                }
-
+            "estrellas":"5",
+            "comentarios":[
+                "Excelente docente, curse química y la logre salvar por él",
+                "Muchas gracias, hace años que no podia salvar matematicas"
             ]
-            
         },
         {
-            "id-teacher":"002",
-            "name":"Ana",
-            "surname":"Zocalos",
+            "name":"Pablo",
+            "surname":"Gonzalez",
             "photo":"imagen",
-            "id-subjet":[
-                "001",
-                "002",
-                "003"
+            "subjet":[
+                "Química",
+                "Física",
+                "Matemáticas",
+                "Inglés"
             ],
-            "description":"",
+            "description":"Soy docente desde hace 20 años, desde que inicie mi carrera sabía que quería enseñar, por lo cual siempre intente formarme no solo para aprender sino también para educar.",
             "cv":"link",
-            "calificacion":[
-                {
-                    "id-student":"001",
-                    "estrellas":"5",
-                    "comentarios":"Excelente docente, curse química y la logre salvar por él"
-                },
-                {
-                    "id-student":"002",
-                    "estrellas":"4",
-                    "comentarios":"Muchas gracias, hace años que no podia salvar matematicas"
-                }
-
+            "estrellas":"5",
+            "comentarios":[
+                "Excelente docente, curse química y la logre salvar por él",
+                "Muchas gracias, hace años que no podia salvar matematicas"
             ]
-            
         }
+        
 ]
